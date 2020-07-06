@@ -10,6 +10,7 @@ import pokemonAPI from '../assets/pokemonAPI.png';
 import smash from '../assets/smash.png';
 import cssMonster from '../assets/cssMonster.png';
 import redBadge from '../assets/redBadge.png';
+import overwatch from '../assets/overwatch.png';
 
 const Footer = (props) => {
     return (
@@ -72,6 +73,17 @@ const Footer = (props) => {
                             <CardSubtitle style={{fontWeight: 'bold'}}>AngularJS</CardSubtitle>
                             <CardText>A group project where you can create an account and make reviews of games where others can see.</CardText>
                             <Button href="https://redbadge.herokuapp.com/login" class="btn btn-primary">Go!</Button>
+                        </CardBody>
+                    </Card>
+                </div>
+                <div className="col-md-4">
+                    <Card style={{ width: '18em' }} >
+                        <CardImg top width="100%" src={overwatch} alt="Card image cap" />
+                        <CardBody>
+                            <CardTitle style={{fontWeight: 'bold', fontSize: '20px'}}>Overwatch Stat Tracker</CardTitle>
+                            <CardSubtitle style={{fontWeight: 'bold'}}>React</CardSubtitle>
+                            <CardText>A stat tracker for my Overwatch profile using an api to keep track of all my stats.</CardText>
+                            <Button href="https://overwatch-stats-alek.herokuapp.com/" class="btn btn-primary">Go!</Button>
                         </CardBody>
                     </Card>
                 </div>
