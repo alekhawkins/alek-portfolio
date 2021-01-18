@@ -37,10 +37,10 @@ const Header = (props) => {
 
     return(
     <div>
-      <Jumbotron style={{ backgroundImage: `url(${bgimage})`, backgroundSize: 'cover', height: '105vh'}} fluid>
+      <Jumbotron style={{ backgroundImage: `url(${bgimage})`, backgroundSize: 'cover', height: '90vh'}} fluid>
         <Container fluid>
           <h1 className="Name">Alek Hawkins</h1>
-          <p className="Title">Junior Software Engineer</p>
+          <p className="Title">Junior Software Engineer and IT Technician</p>
         </Container>
         <div style={{fontFamily: 'Raleway'}} className="Aliens">
           <div className="mothership">

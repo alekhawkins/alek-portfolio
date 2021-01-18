@@ -20,13 +20,12 @@ const Footer = (props) => {
             <div className="row">
                 <div className="col-md-4">
                     <Card style={{ width: '18em' }} >
-                        <CardImg top width="100%" src={netflix} alt="" />
+                        <CardImg top width="100%" src={overwatch} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle style={{fontWeight: 'bold', fontSize: '20px'}}>Netflix Static Page</CardTitle>
-                            <CardSubtitle style={{fontWeight: 'bold'}}>Html/Css</CardSubtitle>
-                            <CardText>I created a static web page with no functionality with html and css.</CardText>
-                            <br />
-                            <Button href="https://alekhawkins17.github.io/staticLayoutProject/">Go!</Button>
+                            <CardTitle style={{fontWeight: 'bold', fontSize: '20px'}}>Overwatch Stat Tracker</CardTitle>
+                            <CardSubtitle style={{fontWeight: 'bold'}}>React</CardSubtitle>
+                            <CardText>A stat tracker for my Overwatch profile using an api to keep track of all my stats.</CardText>
+                            <Button href="https://overwatch-stats-alek.herokuapp.com/" class="btn btn-primary">Go!</Button>
                         </CardBody>
                     </Card>
                 </div>
@@ -78,12 +77,13 @@ const Footer = (props) => {
                 </div>
                 <div className="col-md-4">
                     <Card style={{ width: '18em' }} >
-                        <CardImg top width="100%" src={overwatch} alt="Card image cap" />
+                        <CardImg top width="100%" src={netflix} alt="Card image cap" />
                         <CardBody>
-                            <CardTitle style={{fontWeight: 'bold', fontSize: '20px'}}>Overwatch Stat Tracker</CardTitle>
-                            <CardSubtitle style={{fontWeight: 'bold'}}>React</CardSubtitle>
-                            <CardText>A stat tracker for my Overwatch profile using an api to keep track of all my stats.</CardText>
-                            <Button href="https://overwatch-stats-alek.herokuapp.com/" class="btn btn-primary">Go!</Button>
+                            <CardTitle style={{fontWeight: 'bold', fontSize: '20px'}}>Netflix Static Page</CardTitle>
+                            <CardSubtitle style={{fontWeight: 'bold'}}>Html/Css</CardSubtitle>
+                            <CardText>I created a static web page with no functionality with html and css.</CardText>
+                            <br />
+                            <Button href="https://alekhawkins.github.io/staticLayoutProject/">Go!</Button>
                         </CardBody>
                     </Card>
                 </div>
